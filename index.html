@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIENDADEDROPA BERSHKA</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <h1><img src="img/iconoropa.png" width="100" height="100" alt="">TiendaDeRopa</h1>
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" width="60" height="60" alt="">
+                            <div id="carrito">
+                                <p class="vacio">CARRITO DE COMPRAS</p>
+                                <table class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>ropa</th>
+                                            <th>Precio</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="img/ropa1.jpg" width="100">
+                                            </td>
+                                            <td>Sudadera</td>
+                                            <td>$150</td>
+                                            <td><a href="#" class="borrar-ropa" >X</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="img/ropa2.jpg" width="100">
+                                            </td>
+                                            <td>pantalon</td>
+                                            <td>$190</td>
+                                            <td><a href="#" class="borrar-ropa" >X</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="button u-full-width">Vaciar carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2><font color="purple">BERSHKA</font></h2>
+                        <p>INSPIRANDO MODA</p>
+                        <form>
+                            <input class="u-full-width" type="text" placeholder="¿MODA QUIERES BUSCAR?" id="buscador">
+                            <input type="submit" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>Estilos frescos<br>
+                    Explora los estilos</p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>Moda tentativa<br>
+                    Prueba las nuevas combinaciones</p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>variedad de tallas<br>
+                    Escoge tu ropa favorita</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="lista-ropa" class="container">
+        <h1 class="encabezado">LAS MEJORES OFERTAS</h1>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/ropa1.jpg" class="imagen-ropa u-full-width">
+                    <div class="info-card">
+                        <h4>Sudadera</h4>
+                        <p>varias tallas</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$500 <span class="u-pull-right">$150</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/ropa2.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>pantalon</h4>
+                        <p>varios colores</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$400 <span class="u-pull-right">$190</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/ropa3.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>vestido</h4>
+                        <p>varios modelos</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$540 <span class="u-pull-right">$170</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/ropa4.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>blusa</h4>
+                        <p>estilos unicos</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$300 <span class="u-pull-right">$100</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/ropa5.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>gorras</h4>
+                        <p>Distintos colores</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200 <span class="u-pull-right">$100</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/ropa1.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>sudadera</h4>
+                        <p>varias tallas</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$500 <span class="u-pull-right">$150</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/ropa2.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>pantalon</h4>
+                        <p>varios colores</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$400 <span class="u-pull-right">$190</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/ropa3.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>vestido</h4>
+                        <p>varios modelos</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$300<span class="u-pull-right">$170</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/ropa4.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>blusas</h4>
+                        <p>variedad de modelos</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200 <span class="u-pull-right">$100</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/ropa5.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>gorras</h4>
+                        <p>distintos colores</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200 <span class="u-pull-right">$100</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/ropa1.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                      <h4>sudadera</h4>
+                      <p>varias tallas</p>
+                      <img src="img/estrellas.png">
+                      <p class="precio">$500 <span class="u-pull-right">$150</span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/ropa2.jpg" class="imagen-platillo u-full-width">
+                        <div class="info-card">
+                            <h4>pantalon</h4>
+                            <p>varios colores</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$400 <span class="u-pull-right">$190</span> </p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+    </div>
+<div align="center">
+  <embed src="img/video.mp4" width="600" height="600">
+    <h4><font color="white">EXPERIENCIA EN TIENDA</font></h4>
+</div>
+
+
+
+
+<form action="mailto:emaildelaempresaquehaceelformulario@email.com" method="post" enctype="text/plain" color="white">
+
+<font color="white">Nombre:</font><input type="text" name="nombre" size="25" maxlength="50"><br><br>
+
+<font color="white">Apellidos: </font><input type="text" name="apellidos" size="35" maxlength="100">
+
+<br><br>
+
+<font color="white">Correo electrónico:</font> <input type="text" value="@" name="correo" size="40" maxlength="100">
+
+<br><br>
+
+<font color="white">Población: </font><input type="text" name="poblacion" size="15" maxlength="50">
+
+<br><br>
+
+<font color="white">Provincia:</font> <input type="text" name="provincia" size="15" maxlength="50">
+<br>
+
+<font color="white">Opinión sobre nuestra p&aacute;gina web</font><br>
+
+<textarea cols="40" rows="5" name="opinion">Escriba aquí su opinión...</textarea>
+
+<br><br>
+
+<font color="white">Tiene alguna sugerencia...</font>
+
+<br>
+
+<textarea cols="40" rows="5" name="sugerencias">Escriba aquí sus sugerencias...</textarea>
+
+
+
+<br>
+
+
+<td><div align="center">
+
+<input type="submit" value="Enviar">
+
+</div></td>
+
+<td><div align="center">
+
+<input type="Reset" value="Borrar">
+
+</div></td>
+
+</tr>
+
+</table>
+
+</form>
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav class="menu">
+                
+                </div>
+                <div class="four columns">
+                    <nav class="menu">
+                        <a class="enlace" href="#">Tienda: BERSHKA</a>
+                        <a class="enlace" href="#">Ubicacion: Valencia, España</a>
+                        <a class="enlace" href="#">Telefono: 9514082802</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
